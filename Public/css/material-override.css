@@ -1,0 +1,131 @@
+.btn,
+.btn:focus,
+nav {
+    background-color: #e89696!important
+}
+
+footer {
+    background-color: #1c1c1c!important
+}
+
+footer,
+nav {
+    color: #fff!important
+}
+
+.input-field+label,
+.select-wrapper.valid~.helper-text:after,
+input:not([type]).valid~.helper-text:after,
+input:not([type]):focus.valid~.helper-text:after,
+input:not([type]):focus.valid~label,
+input[type=date]:not(.browser-default).valid~.helper-text:after,
+input[type=date]:not(.browser-default):focus.valid~.helper-text:after,
+input[type=date]:not(.browser-default):focus.valid~label,
+input[type=datetime-local]:not(.browser-default).valid~.helper-text:after,
+input[type=datetime-local]:not(.browser-default):focus.valid~.helper-text:after,
+input[type=datetime-local]:not(.browser-default):focus.valid~label,
+input[type=datetime]:not(.browser-default).valid~.helper-text:after,
+input[type=datetime]:not(.browser-default):focus.valid~.helper-text:after,
+input[type=datetime]:not(.browser-default):focus.valid~label,
+input[type=email]:not(.browser-default).valid~.helper-text:after,
+input[type=email]:not(.browser-default):focus.valid~.helper-text:after,
+input[type=email]:not(.browser-default):focus.valid~label,
+input[type=number]:not(.browser-default).valid~.helper-text:after,
+input[type=number]:not(.browser-default):focus.valid~.helper-text:after,
+input[type=number]:not(.browser-default):focus.valid~label,
+input[type=password]:not(.browser-default).valid~.helper-text:after,
+input[type=password]:not(.browser-default):focus.valid~.helper-text:after,
+input[type=password]:not(.browser-default):focus.valid~label,
+input[type=search]:not(.browser-default).valid~.helper-text:after,
+input[type=search]:not(.browser-default):focus.valid~.helper-text:after,
+input[type=search]:not(.browser-default):focus.valid~label,
+input[type=tel]:not(.browser-default).valid~.helper-text:after,
+input[type=tel]:not(.browser-default):focus.valid~.helper-text:after,
+input[type=tel]:not(.browser-default):focus.valid~label,
+input[type=text]:not(.browser-default).valid~.helper-text:after,
+input[type=text]:not(.browser-default):focus.valid~.helper-text:after,
+input[type=text]:not(.browser-default):focus.valid~label,
+input[type=time]:not(.browser-default).valid~.helper-text:after,
+input[type=time]:not(.browser-default):focus.valid~.helper-text:after,
+input[type=time]:not(.browser-default):focus.valid~label,
+input[type=url]:not(.browser-default).valid~.helper-text:after,
+input[type=url]:not(.browser-default):focus.valid~.helper-text:after,
+input[type=url]:not(.browser-default):focus.valid~label,
+textarea.materialize-textarea.valid~.helper-text:after,
+textarea.materialize-textarea:focus.valid~.helper-text:after,
+textarea.materialize-textarea:focus.valid~label {
+    color: #e89696!important
+}
+
+.input-field input[type=text]:focus .input-field input[type=text]:active,
+.select-wrapper.valid>input.select-dropdown,
+input.valid:not([type]),
+input.valid:not([type]):focus,
+input[type=date].valid:not(.browser-default),
+input[type=date].valid:not(.browser-default):focus,
+input[type=datetime-local].valid:not(.browser-default),
+input[type=datetime-local].valid:not(.browser-default):focus,
+input[type=datetime].valid:not(.browser-default),
+input[type=datetime].valid:not(.browser-default):focus,
+input[type=email].valid:not(.browser-default),
+input[type=email].valid:not(.browser-default):focus,
+input[type=email]:focus .input-field input[type=email]:active,
+input[type=email]:not(.browser-default),
+input[type=number].valid:not(.browser-default),
+input[type=number].valid:not(.browser-default):focus,
+input[type=password].valid:not(.browser-default),
+input[type=password].valid:not(.browser-default):focus,
+input[type=password]:focus .input-field input[type=password]:active,
+input[type=password]:not(.browser-default),
+input[type=search].valid:not(.browser-default),
+input[type=search].valid:not(.browser-default):focus,
+input[type=tel].valid:not(.browser-default),
+input[type=tel].valid:not(.browser-default):focus,
+input[type=text].valid:not(.browser-default),
+input[type=text].valid:not(.browser-default):focus,
+input[type=text]:not(.browser-default),
+input[type=time].valid:not(.browser-default),
+input[type=time].valid:not(.browser-default):focus,
+input[type=url].valid:not(.browser-default),
+input[type=url].valid:not(.browser-default):focus,
+textarea.materialize-textarea.valid,
+textarea.materialize-textarea.valid:focus {
+    border-bottom: 1px solid #e89696!important;
+    box-shadow: 0 1px 0 0 #e89696!important;
+    outline: 0!important
+}
+
+.select-wrapper.valid~.helper-text:after,
+input:not([type]).valid~.helper-text:after,
+input:not([type]):focus.valid~.helper-text:after,
+input[type=date]:not(.browser-default).valid~.helper-text:after,
+input[type=date]:not(.browser-default):focus.valid~.helper-text:after,
+input[type=datetime-local]:not(.browser-default).valid~.helper-text:after,
+input[type=datetime-local]:not(.browser-default):focus.valid~.helper-text:after,
+input[type=datetime]:not(.browser-default).valid~.helper-text:after,
+input[type=datetime]:not(.browser-default):focus.valid~.helper-text:after,
+input[type=email]:not(.browser-default).valid~.helper-text:after,
+input[type=email]:not(.browser-default):focus.valid~.helper-text:after,
+input[type=number]:not(.browser-default).valid~.helper-text:after,
+input[type=number]:not(.browser-default):focus.valid~.helper-text:after,
+input[type=password]:not(.browser-default).valid~.helper-text:after,
+input[type=password]:not(.browser-default):focus.valid~.helper-text:after,
+input[type=search]:not(.browser-default).valid~.helper-text:after,
+input[type=search]:not(.browser-default):focus.valid~.helper-text:after,
+input[type=tel]:not(.browser-default).valid~.helper-text:after,
+input[type=tel]:not(.browser-default):focus.valid~.helper-text:after,
+input[type=text]:not(.browser-default).valid~.helper-text:after,
+input[type=text]:not(.browser-default):focus.valid~.helper-text:after,
+input[type=time]:not(.browser-default).valid~.helper-text:after,
+input[type=time]:not(.browser-default):focus.valid~.helper-text:after,
+input[type=url]:not(.browser-default).valid~.helper-text:after,
+input[type=url]:not(.browser-default):focus.valid~.helper-text:after,
+textarea.materialize-textarea.valid~.helper-text:after,
+textarea.materialize-textarea:focus.valid~.helper-text:after {
+    content: attr(data-success);
+    color: #e89696!important
+}
+
+.material-icons {
+    color: #e89696
+}

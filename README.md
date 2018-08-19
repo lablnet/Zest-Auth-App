@@ -28,7 +28,7 @@
 
 Clone this repo
 
-``` clone https://github.com/Lablnet/Zest-Auth-App.git ```
+``` git clone https://github.com/Lablnet/Zest-Auth-App.git ```
 
 Then run ```composer install``` command.
 

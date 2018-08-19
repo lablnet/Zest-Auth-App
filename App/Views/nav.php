@@ -1,19 +1,3 @@
-<!--
-#########################################################
-These code protected by world/WRH copyright law
-#########################################################
-so you can not use the source code of  this page if you don't have 
-#########################################################
-written permission from WRH.
-#########################################################
-read our terms <?=site_base_url()?>site/terms
-#########################################################
-if you try copy our code we will take legal action against you 
-#########################################################
-Your use of this site shall be governed by international law and shall be subject to the exclusive jurisdiction of the international Courts.
-#########################################################
--->
-
 <?php
 $user = new \Zest\Auth\User;
  if (!$user->isLogin()) {
@@ -37,9 +21,7 @@ $user = new \Zest\Auth\User;
       <link rel="stylesheet" href="<?= site_base_url() ?>css/material-override.css">
       <link rel="shortcut icon" type="image/png" href="<?= site_base_url(); ?>/image/icon.png"/>
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-      <link rel="manifest" href="<?= site_base_url(); ?>manifest.json">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <meta name="theme-color" content="#009688" />
 </head>
 <body>
 <div id="overlay"></div>

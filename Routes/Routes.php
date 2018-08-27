@@ -1,25 +1,36 @@
 <?php
 
-// Add the routes
-$router->add('', ['controller' => 'Home', 'action' => 'index']);
-
+//create url: yoursite.com
+$router->get('',"Home@index");
 //Account
-$router->add('account/login', ['controller' => 'Account', 'action' => 'login']);
-$router->add('account/login/action', ['controller' => 'Account', 'action' => 'loginProcess']);
-$router->add('account/signup', ['controller' => 'Account', 'action' => 'signup']);
-$router->add('account/signup/action', ['controller' => 'Account', 'action' => 'signupProcess']);
-$router->add('account/logout', ['controller' => 'Account', 'action' => 'logout']);
-$router->add('{username:@([a-zA-Z0-9])+}', ['controller' => 'Account', 'action' => 'profileView']);
-$router->add('account/profile/edit', ['controller' => 'Account', 'action' => 'profileEdit']);
-$router->add('account/update/action', ['controller' => 'Account', 'action' => 'profileUpdate']);
-$router->add('account/update/bio/action', ['controller' => 'Account', 'action' => 'profileBioUpdate']);
-$router->add('account/update/password/action', ['controller' => 'Account', 'action' => 'profilePasswordUpdate']);
-
-$router->add('account/reset', ['controller' => 'Account', 'action' => 'reset']);
-$router->add('account/reset/action', ['controller' => 'Account', 'action' => 'resetProcess']);
-
-$router->add('account/reset/password/{token:[A-Za-z0-9]+}', ['controller' => 'Account', 'action' => 'resetPassword']);
-$router->add('account/reset/password-password/process', ['controller' => 'Account', 'action' => 'resetPasswordProcess']);
+//create url: yoursite.com/acount/login
+$router->get('account/login',"Account@login");
+//create url: yoursite.com/acount/login/action
+$router->post('account/login/action',"Account@loginProcess");
+//create url: yoursite.com/acount/signup
+$router->get('account/signup', "Account@signup");
+//create url: yoursite.com/acount/signup/action
+$router->post('account/signup/action', "Account@signupProcess");
+//create url: yoursite.com/acount/logout
+$router->get('account/logout', "Account@logout");
+//create url: yoursite.com/@username
+$router->get('{username:@([a-zA-Z0-9])+}', "Account@profileView");
+//create url: yoursite.com/acount/profile/edit
+$router->get('account/profile/edit', "Account@profileEdit");
+//create url: yoursite.com/acount/update/action
+$router->post('account/update/action', "Account@profileUpdate");
+//create url: yoursite.com/acount/update/bio/action
+$router->post('account/update/bio/action', "Account@profileBioUpdate");
+//create url: yoursite.com/acount/update/password/action
+$router->post('account/update/password/action', "Account@profilePasswordUpdate");
+//create url: yoursite.com/acount/reset
+$router->get('account/reset', "Account@reset");
+//create url: yoursite.com/acount/reset/action
+$router->post('account/reset/action',"Account@resetProcess");
+//create url: yoursite.com/acount/reset/password/$token
+$router->get('account/reset/password/{token:[A-Za-z0-9]+}', "Account@resetPassword");
+//create url: yoursite.com/account/reset/password-password/process
+$router->post('account/reset/password-password/process', "Account@resetPasswordProcess");
 //Cache the routes
 $router->cacheRouters();
 //Dispatch the request

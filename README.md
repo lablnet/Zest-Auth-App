@@ -55,5 +55,5 @@ licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
 ## Question
 
-if you have any question feel free to ask 
-https://web.facebook.com/malikumerfarooq01/
+if you have any question feel free to ask https://zestframework.xyz//community/1 you need create account in order to ask question
+https://zestframework.xyz//faq/view/uRvmJGC/How+to+ask+question+or+create+topic
